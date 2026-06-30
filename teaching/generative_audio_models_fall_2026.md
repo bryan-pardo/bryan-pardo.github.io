@@ -19,13 +19,36 @@ Office hours by appointment
 
 WARNING: This course is about reading papers. A lot of papers. If you don't want to read and discuss papers, this is not the course for you.
 
-DESCRIPTION: One of the most exciting areas of research in deep learning is that of generative models. This course is dedicated to understanding the inner workings of the technologies that underlie these advances. Students will primarily learn about how Transformers, Variational Autoencoders, Reinforcement Learning and Diffusion Models are used to create text documents, write code, create music, images, speech, and more. We'll also look at legal and ethical implications of these models.  This is an advanced course that presumes a good working understanding of traditional supervised neural network technology and techniques (e.g. convolutional networks, LSTMs, loss functions, regularization, gradient descent). 
+DESCRIPTION: 
 
-PREREQUISITES: Course admission is by permission of instructor. The best Northwestern course to prepare for this class is CS 449 Deep Learning, although being a doctoral student in CS will likely get you in, even if you haven't taken CS 449. 
-  
+PREREQUISITES: Course admission is by permission of instructor. 
+
 <a name="calendar"></a>
 ## Course Calendar
 [**Back to top**](#top)
+
+
+| Week|Day and Date| Topic (tentative)                        |Due today           | Points|
+|----:|------------|------------------------------------------|--------------------|------:|
+|1 | Wed Sep 9     | Basics of audio processing                                                             | | |
+Sampling, recording, spectrograms
+|2 | Wed Sep 16    | Autoencoders and tokenization                                                          | | |
+|3 | Wed Sep 23    | Language Modeling                                                                      | | |
+|4 | Wed Sep 30    | Diffusion                                                                              | | |
+|5 | Wed Oct 7     | Latent Diffusion                                                                       | | |
+|6 | Wed Oct 14    | Embedding models (CLAP)                                                                | | |
+|7 | Wed Oct 21    | Text Guidance                                                                          | | |
+|8 | Wed Oct 28    | Copyright and the law                                                                  | | |
+|9 | Wed Nov 4     | Ethics of GenAI                                                                        | | |
+|10 | Wed Nov 11   | Measuring Creativity Support                                                           | | |
+|11 | Wed Nov 18   | Student project meetings                                                               | | |
+|12 | Wed Nov 25   | Student project meetings                                                               | | |
+|13 | Wed Dec 2    | Multimodal Guidance                                                                    | | |                                                                                       | | |
+|14 | Wed Dec 9    | Music generation in history                                                            | | |
+Iannis Xenakis, I-ching, Musical Dice game
+|?? | Dec 17-23    | FINAL EXAMS                                                                            | Final exam | 20 |
+
+
 
 
 | Week|   Day and Date| Topic                                                                                                                                           |Presenter        |Commentators            |
@@ -308,8 +331,6 @@ Your final exam is this: I will select a paper that you did a review of and you'
 1. [MelGAN: Generative Adversarial Networks for Conditional Waveform Synthesis](https://github.com/descriptinc/melgan-neurips): Doing speech synthesis with GANs.
 
 1. [HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis](https://proceedings.neurips.cc/paper/2020/hash/c5d736809766d46260d816d8dbc9eb44-Abstract.html): Even better speech synthesis with GANs.
-
-1.[The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441): A 2025 paper that brings back GANs by addressing mode collapse and making them easier to train. This is the R3GAN paper.
 
 ### Variational Auto Encoders (VAEs)
 
