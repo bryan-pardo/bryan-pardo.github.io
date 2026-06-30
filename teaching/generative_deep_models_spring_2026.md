@@ -379,9 +379,11 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html): The 2015 paper where diffusion models were introduced. 
 
-1. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239): This was a break-out paper from 2020 that got people excited about diffusion models.
+1. [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239): This was a break-out paper from 2020 that got people excited about diffusion models.
 
 1. [The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion): This provides a step-by-step walkthrough of the Denoising Diffusion Probabilistic Models, but with pytorch code
+
+1. [Learning in Implicit Generative Models](https://arxiv.org/pdf/1610.03483): This 2017 paper explains what an implicit probabilistic model is. If you don't know what that is, read it before the DDIM paper. 
 
 1. [Denoising Diffusion Implicit Models (DDIM)](https://openreview.net/forum?id=St1giarCHLP): This 2021 paper made it possible to change your step size in diffusion, allowing for far fewer diffusions steps.
 
@@ -479,7 +481,9 @@ Your final exam is this: I will select a paper that you did a review of and you'
 ### TOPICS NOT COVERD IN CLASS (BUT THAT ARE WORTH LEARNING ABOUT)
 
 #### Normalizing Flows
-1. [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.html): A differentiable method to take a simple distribution and make it arbitrarily complex. Useful for modeling distributions in deep nets. Can be added to VAEs. 
+1. [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.html): The 2015 paper that introduces a differentiable method to take a simple distribution and make it arbitrarily complex. 
+
+1. [Normalizing Flows for Probabilistic Modeling and Inference](): A 2021 paper that discusses fundamental principles of flow design, expressive power and computational trade-oﬀs, all in a generative modeling context.
 
 #### FILM Layers
 1. [FiLM: Visual Reasoning with a General Conditioning Layer](https://www.researchgate.net/publication/320014293_FiLM_Visual_Reasoning_with_a_General_Conditioning_Layer): Affine transformation of input layers that proves helpful in many contextx. Here's [the TL;DR version](https://ml-retrospectives.github.io/neurips2019/accepted_retrospectives/2019/film/). I'd start with the TL;DR.
