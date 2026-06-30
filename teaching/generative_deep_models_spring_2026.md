@@ -309,7 +309,7 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis](https://proceedings.neurips.cc/paper/2020/hash/c5d736809766d46260d816d8dbc9eb44-Abstract.html): Even better speech synthesis with GANs.
 
-1.[The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441): A 2025 paper that brings back GANs by addressing mode collapse and making them easier to train. This is the R3GAN paper.
+1. [The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441): A 2025 paper that brings back GANs by addressing mode collapse and making them easier to train. This is the R3GAN paper.
 
 ### Variational Auto Encoders (VAEs)
 
