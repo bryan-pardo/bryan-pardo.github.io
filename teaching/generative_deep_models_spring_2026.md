@@ -321,8 +321,6 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [Jenson's Inequality (an example with code)](https://machinelearningmastery.com/a-gentle-introduction-to-jensens-inequality/). Read this before reading about ELBO
 
-1. [Evidence Lower Bound, Clearly Explained](https://www.youtube.com/watch?v=IXsA5Rpp25w): A video walking through Evidence Lower Bound.
-
 1. [A walkthrough of Evidence Lower Bound (ELBO)](https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf): Lecture notes from David Blei, one of the inventors of ELBO. ELBO is what you optimize when you do variational inference in a VAE.
 
 1. [Categorical Reparameterization with Gumbel-Softmax](https://arxiv.org/abs/1611.01144): This is a way of allowing categorical latent variables in your model so you can run a differentiable gradient descent algorithm through them. This is used in Vector-Quantized VAEs.
