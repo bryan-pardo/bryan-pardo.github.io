@@ -373,7 +373,11 @@ Your final exam is this: I will select a paper that you did a review of and you'
 1. [Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations](https://www.nature.com/articles/s41551-021-00689-x): Using a WAE to generate new drugs
 
 
-### Diffusion and Score Models
+### Diffusion Models 
+
+1. [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/): Lilian Weng's blog explaining diffusion models
+
+1. [An Introduction to Diffusion Models](https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/): A nice tutorial blog that has Pytorch code.
 
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](http://proceedings.mlr.press/v37/sohl-dickstein15.html): The 2015 paper where diffusion models were introduced. 
 
@@ -387,13 +391,14 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [The Hugging Face DDIM Notebook](https://huggingface.co/learn/diffusion-course/en/unit4/2): Once you have DDIM Models, you can use it for image editing. Here's how...
 
+
+### Score Models (The Yang Song section of this page)
+
 1. [Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.github.io/blog/2021/score/#connection-to-diffusion-models-and-others): This is a blog that explains how score-based models are also basically diffusion models.
 
 1. [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456):This is the 2021 paper that explicitly bridges the gap between discrete diffusion models (like DDPM/DDIM), score matching, and continuous-time differential equations.
 
-1. [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
-
-1. [An Introduction to Diffusion Models](https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/): A nice tutorial blog that has Pytorch code.
+1. [The GitHub page for Score-Based Generative Modeling through SDEs](https://github.com/yang-song/score_sde): Here's the code for the paper.
 
 #### Advanced Diffussion and Score Models
 
