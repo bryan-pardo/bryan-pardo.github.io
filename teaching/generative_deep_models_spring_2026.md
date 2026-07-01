@@ -391,6 +391,8 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.github.io/blog/2021/score/#connection-to-diffusion-models-and-others): This is a blog that explains how score-based models are also basically diffusion models.
 
+1. [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456):This is the paper that explicitly bridges the gap between discrete diffusion models (like DDPM/DDIM), score matching, and continuous-time differential equations.
+
 1. [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 
 1. [An Introduction to Diffusion Models](https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/): A nice tutorial blog that has Pytorch code.
