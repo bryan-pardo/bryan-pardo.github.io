@@ -309,9 +309,12 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis](https://proceedings.neurips.cc/paper/2020/hash/c5d736809766d46260d816d8dbc9eb44-Abstract.html): Even better speech synthesis with GANs.
 
+#### The GAN Revival
 1. [The relativistic discriminator: a key element missing from standard GAN](https://arxiv.org/abs/1807.00734): This is the 2018 paper that introduces a way to stop mode collapse in GANs by changing the loss function to pair real and fake examples.
 
 1. [The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441): A 2025 paper that brings back GANs by addressing mode collapse and making them easier to train. This is the R3GAN paper.
+
+1. [Scalable GANs with Transformers](https://arxiv.org/abs/2509.24935): The regularization used in the previous 2 GAN revival papers involves some hairy gradient calculation. This one substitutes an easy-to-calculate method to limit the curvature of the loss function by borrowing a trick from adversarial robustness...
 
 ### Variational Auto Encoders (VAEs)
 
