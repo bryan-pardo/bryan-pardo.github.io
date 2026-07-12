@@ -253,7 +253,7 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [Rank Analysis of Incomplete Block Designs: I. The Method of Paired Comparisons](https://www.jstor.org/stable/2334029): The 1952 paper that introduced the Bradley-Terry model, upon which most RLHF and its descendents depend.
 
-1. [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf): The paper that (mostly) explains the RL approach used in InstructGPT (the precursor to ChatGPT)
+1. [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf): The paper that (mostly) explains PPO, the RL approach used in InstructGPT (the precursor to ChatGPT)
 
 1. [This blog on RL from human feedback](https://openai.com/research/learning-from-human-preferences): read the paper linked at the start of the blog. It teaches how to learn a reward function from human feedback, so you can do RL.
 
@@ -264,6 +264,8 @@ Your final exam is this: I will select a paper that you did a review of and you'
 1. [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290): This is the go-to option for people not doing RLHF. It skips having to train a separate reward model.
 
 1. [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306): Directly maximizes the utility of generations instead of maximizing the log-likelihood of preferences. Maybe better than DPO?
+
+1. [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300): This 224 paper introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that the DeepSeek folks claim enhances mathematical reasoning abilities while optimizing the memory usage of PPO.
 
 1. [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://arxiv.org/html/2603.12228v1): New for 2026! Just randomly jiggle your weights...
 
