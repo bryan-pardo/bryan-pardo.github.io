@@ -207,7 +207,7 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 1. [Longformer: The Long-Document Transformer](https://arxiv.org/pdf/2004.05150):  Longformer’s attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. This is a widely cited paper. 
 
-#### Adding Memory/Scratch Space to a Transformer
+#### Reasoning and Memory in Transformers
 
 1. [Memory Transformer](https://arxiv.org/abs/2006.11527)
 
@@ -216,6 +216,8 @@ Your final exam is this: I will select a paper that you did a review of and you'
 1. [Think before you speak: Training Language Models With Pause Tokens](https://arxiv.org/abs/2310.02226)
 
 1. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf)
+
+1. [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html): A 2026 paper from Anthropic that claims they can study jacobians to find places in transformers that are working as a global workspace for thought, framed in language tokens. They don't go all the way to say it is "consciousness", but you can tell they kind of want to go there.
 
 #### How to tokenize audio to allow language modeling of sound
 
