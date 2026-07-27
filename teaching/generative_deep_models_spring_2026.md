@@ -526,6 +526,8 @@ Your final exam is this: I will select a paper that you did a review of and you'
 
 #### Pardo's latest random reads...
 
+1. [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/pdf/2605.23904): A 2026 paper on an algorithm to learn to create better "skills.md" files as background information prompts.
+
 1. [LVLMs and Humans Ground Differently in Referential Communication](https://arxiv.org/pdf/2601.19792): How do Language Vision Models find common ground?
 
 1. [Causal Tracing of Audio-Text Fusion in Large Audio Language Models](https://arxiv.org/pdf/2603.13768): Where do Language Audio Models merge the language and the audio?
