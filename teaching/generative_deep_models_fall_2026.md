@@ -8,7 +8,7 @@
 Technological Institute LG68
 
 #### Class Day/Time
-Wed 2pm - 5pm
+Tue Thu 3:30pm - 5:00pm
 
 #### Instructor
 [Bryan Pardo](http://bryanpardo.com)
@@ -30,83 +30,44 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 
 | Week|   Day and Date| Topic                                                                                                                                           |Presenter        |Commentators            |
 |----:|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
-|  1  | Thu Sep 24    | NO CLASS                                                                                                                                                  | Pardo           | - |
-|  2  | Tue Sep 29    | Basics of Deep Learning                                                                                                                                                | Pardo           | - |
-|  2  | Thu Oct  1    | Basics of Deep Learning                                                                                                                                                  | Pardo           | - |
-|  3  | Tue Oct  6    | Autoencoders                                                                                                                                               | Pardo           | - |
-|  3  | Thu Oct  8    | Variational Autoencoders                                                                                                                                                | Pardo           | - |
-|  4  | Tue Oct 13    | R: Neural CODECS (image)                                                                                                                                               | Pardo           | - |
-|  4  | Thu Oct 15    | R: Neural CODECS (audio)                                                                                                                                               | Pardo           | - |
-|  5  | Tue Oct 20    | Generative Adversarial Networks                                                                                                                                                 | Pardo           | - |
-|  5  | Thu Oct 22    | Generative Adversarial Networks                                                                                                                                               | Pardo           | - |
-|  6  | Tue Oct 27    | R: The evolution of language modeling: Attention, Embeddings                                                                                                                                                | Pardo           | - |
-|  6  | Thu Oct 29    | R: Transformers: Positional Encoding, Autoregression                                                                                                                                                 | Pardo           | - |
-|  7  | Tue Nov  3    | Deep Reinforcement Learning                                                                                                                                                | Pardo           | - |
-|  7  | Thu Nov  5    | Deep Reinforcement Learning                                                                                                                                                 | Pardo           | - |
-|  8  | Tue Nov 10    | Image Language Modeling                                                                                                                                               | Pardo           | - |
-|  8  | Thu Nov 12    | Audio Language Modeling                                                                                                                                                | Pardo           | - |
-|  9  | Tue Nov 17    | Diffusion Models                                                                                                                                                | Pardo           | - |
-|  9  | Thu Nov 19    | Latent Diffusion (image)                                                                                                                                                | Pardo           | - |
-| 10  | Tue Nov 24    | Latent Diffusion (audio)                                                                                                                                                | Pardo           | - |
-| 10  | Thu Nov 26    | NO CLASS                                                                                                                                                 | Pardo           | - |
-| 11  | Tue Dec  1    | GenAI, Copying, and Copyright                                                                                                                                                 | Pardo           | - |
-| 11  | Thu Dec  3    | Ethics of GenAI                                                                                                                                              | Pardo           | - |
-| 12  | Fri Dec 12    | FINAL EXAM NOON - 2PM                                                                                                                       | Pardo           | - |
+|  1  | Thu Sep 24    | NO CLASS                                                                                                                                        | Pardo           | - |
+|  2  | Tue Sep 29    | Basics of Deep Learning                                                                                                                         | Pardo           | - |
+|  2  | Thu Oct  1    | Classifiers                                                                                                                                     | Pardo           | - |
+|  3  | Tue Oct  6    | Autoencoders                                                                                                                                    | Pardo           | - |
+|  3  | Thu Oct  8    | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661v1.pdf)                                                                                                                                           | Pardo           | - |
+|  4  | Tue Oct 13    | Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                                       | Pardo           | - |
+|  4  | Thu Oct 15    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937)                                                                                                             | Pardo           | - |
+|  5  | Tue Oct 20    | Neural Codecs: [SoundStream](https://arxiv.org/pdf/2107.03312.pdf)                                                                                                                                   | Pardo           | - |
+|  5  | Thu Oct 22    | Multimodal Embedding Models: [CLIP](https://arxiv.org/abs/2103.00020)                                                                           | Pardo           | - |
+|  6  | Tue Oct 27    | Diffusion: [DDPM](https://arxiv.org/abs/2006.11239)                                                                                             | Pardo           | - |
+|  6  | Thu Oct 29    | Diffusion: [DDIM](https://arxiv.org/abs/2010.02502)                                                                                             | Pardo           | - |
+|  7  | Tue Nov  3    | [Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                  | Pardo           | - |
+|  7  | Thu Nov  5    | [Classifier-free Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                  | Pardo           | - |
+|  8  | Tue Nov 10    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752)                                                                                            | Pardo           | - |
+|  8  | Thu Nov 12    | The evolution of language modeling: Attention, Embeddings                                                                                       | Pardo           | - |
+|  9  | Tue Nov 17    | Transformers: Positional Encoding, Autoregression: [Attention is all you need](https://arxiv.org/abs/1706.03762)                                                                                              | Pardo           | - |
+|  9  | Thu Nov 19    | Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                                    | Pardo           | - |
+| 10  | Tue Nov 24    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                     | Pardo           | - |
+| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING                                                                                                                                        | Pardo           | - |
+| 11  | Tue Dec  1    | Multimedia Langauge Modeling: ([Diffusion with Transformers](https://arxiv.org/abs/2212.09748), [Dall-E](https://arxiv.org/pdf/2102.12092.pdf))                                                                                                                   | Pardo           | - |
+| 11  | Thu Dec  3    | Ethics of GenAI                                                                                                                                 | Pardo           | - |
+| 12  | Fri Dec 12    | FINAL EXAM NOON - 2PM                                                                                                                           | Pardo           | - |
 
 
-
-
-
-==========================================================================================
-| Week|   Day and Date| Topic                                                                                                                                           |Presenter        |Commentators            |
-|----:|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
-|     | Wed Apr 1     | The evolution of language modeling: Attention, Embeddings,                                                                                      | Pardo           | - |
-|     |               | Basics of Transformers: Positional Encoding, Autoregression                                                                                     | Pardo           | - |
-|     | Wed Apr 8     | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)                        | Pardo           | - |
-|     |               | Basics of Multimedia Language Modeling                                                                                                          | Pardo           | - |
-|     |               | At the end of class, watch this video [Should melodies be copyrightable?](http://allthemusic.info)                                              | Pardo           | - |
-|     | Wed Apr 15    | [Quantifying Memorization Across Neural Language Models](https://arxiv.org/abs/2202.07646)                                                      | Zed             | Nick, Aidan |
-|     |               | [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)| Chang | Sophie, YY |
-|     | Wed Apr 22    | [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)                                                                   | Sophie          | Chang, Yiquan |	
-|     |               | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)                                  | Oliver          | Fattaneh, Zed |
-|     |               | [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751)                                                                | Jueun           | Nick  |
-|     |               | Basics of Deep Reinforcement Learning + [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)               | Pardo           | - |
-|     | Wed Apr 29    | [Deep reinforcement learning from human preferences](https://arxiv.org/abs/1706.03741)                                                          | Mahtab          | Chang, Jueun |
-|     |               | [Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155.pdf)                                     | YY              | Mahtab, Sophie |
-|     |               | [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)                              | Ahmed           | Mahtab, Jueun |
-|     | Wed May 6     | No class. Read Papers!                                                                                                                          | -               | - |
-|     | Wed May 13    | [MaskGIT: Masked Generative Image Transformer](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html) | Dana             | Yiquan, Zed |     
-|     |               | [Vampnet: Music Generation via Masked Acoustic Token Modeling](https://arxiv.org/abs/2307.04686)                                                | Yiquan          | Ian, Aidan |
-|     |               | The basics of diffusion models                                                                                                                  | Pardo           | - |
-|     | Wed May 20    | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)                                       | Fattaneh        | Oliver, YY |
-|     |               | [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/pdf/2204.06125.pdf)                                        | Zhiwei          | Fattaneh, Ahmed |
-|     | Wed May 27    | [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html) | Aidan               | Zhiwei, Ahmed |
-|     |               | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/pdf/2112.10752)                                                | Nick               | Zhiwei, Ian |
-|     | Wed June 3    | [InstructPix2Pix: Learning To Follow Image Editing Instructions](https://openaccess.thecvf.com/content/CVPR2023/html/Brooks_InstructPix2Pix_Learning_To_Follow_Image_Editing_Instructions_CVPR_2023_paper.html)     | Ian    | Oliver, Dana |
-|     |               | [Sketch2Sound](https://arxiv.org/pdf/2412.08550)                                                            | -               | Dana|
-|     | Wed Jun 10    | Final Exam 2pm - 5pm: one-on-one quiz on a randomly-selected paper you wrote a review of |
 
 ## Course assignments
 
-### Reading: 40 points 
-You will submit 20 one-page reviews of readings from the course website. 10 of these must be papers (not lecture slides, actual papers) scheduled for presenation in the course calendar. 10 of these can be chosen from the full set of readings for the course. Note...even though this class is about generative models, use of a generative model is not allowed in writing these up. The point is to have your own thoughts...and communicate your own thoughts on the page. 
+### Reading: 30 points 
+You will submit 10 one-page reviews of readings from the course website. Each review is worth 3 points.
 
-### Class Paper Presentation: 40 points
-Once during the course of the term, you will be the lead in discussing the reading in class. This will mean you haven't just read the paper, but you've read related work, really understand it and can give a 30-minute (maximum) presentation of the paperand then lead a discussion about it.
-Note, you are not allowed to go over 30 minutes in your presentation. Keeping to the time limit is part of the grade.
+### Class Participation 20 points
+Show up for class, get a point.
 
-<ul>
-<li>10 points: 1-on-1 meeting prior to the presentation, to go over slides and talking points</li>
-<li>10 points: Initial slides at time of 1-on-1 meeting</li>
-<li>15 points: Presenting topic (30 minutes) with updated slides & leading discussion (15 minutes)  </li>
-<li>5  points:  Final submitted slides, updated in response to feedback from presentation </li>
-</ul>
+### Indiviaul Oral Exam 20 points
+I will select a paper that you did a review of and you'll spend 10 minutes talking with me about it, answering my questions as you go. If I believe you really read and understood the paper, full points. 
 
-### Class Participation 10 points
-For 2 papers that are presented in class (not your own), you are expected to be in class, on time, and really up on the material. I will feel free to call on you repeatedly and expect you to be engaged and give informed, thoughtful answers. Don't expect full points for this if you give brief or uninformed answers. You will be able to sign up for these papers at the start of the term. 
-
-### Final Exam 10 points
-Your final exam is this: I will select a paper that you did a review of and you'll spend 5 minutes talking about it, answering my questions as you go. If I believe you really read and understood the paper, full points. 
+### Final Project 30 points
+You will make something that actually does generative modeling. Or you will write a lit review on something that is relevant to your research. Your choice. We'll discuss...
 
 
 <a name="slides"></a>
