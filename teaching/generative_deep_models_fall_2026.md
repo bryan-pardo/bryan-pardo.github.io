@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-# DEEP GENERATIVE MODELS SPRING 2026
+# DEEP GENERATIVE MODELS FALL 2026
 
 |[**Top**](#top)|  [**Calendar**](#calendar)| [**Slides**](#slides)|  [**Readings**](#readings)| 
 
@@ -28,46 +28,43 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 [**Back to top**](#top)
 
 
-| Week|   Day and Date| Topic                                                                                                                                           |Presenter        |Commentators            |
-|----:|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
-|  1  | Thu Sep 24    | NO CLASS                                                                                                                                        | Pardo           | - |
-|  2  | Tue Sep 29    | Basics of Deep Learning                                                                                                                         | Pardo           | - |
-|  2  | Thu Oct  1    | Classifiers                                                                                                                                     | Pardo           | - |
-|  3  | Tue Oct  6    | Autoencoders                                                                                                                                    | Pardo           | - |
-|  3  | Thu Oct  8    | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661v1.pdf)                                                                                                                                           | Pardo           | - |
-|  4  | Tue Oct 13    | Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                                       | Pardo           | - |
-|  4  | Thu Oct 15    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937)                                                                                                             | Pardo           | - |
-|  5  | Tue Oct 20    | Neural Codecs: [SoundStream](https://arxiv.org/pdf/2107.03312.pdf)                                                                                                                                   | Pardo           | - |
-|  5  | Thu Oct 22    | Multimodal Embedding Models: [CLIP](https://arxiv.org/abs/2103.00020)                                                                           | Pardo           | - |
-|  6  | Tue Oct 27    | Diffusion: [DDPM](https://arxiv.org/abs/2006.11239)                                                                                             | Pardo           | - |
-|  6  | Thu Oct 29    | Diffusion: [DDIM](https://arxiv.org/abs/2010.02502)                                                                                             | Pardo           | - |
-|  7  | Tue Nov  3    | [Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                  | Pardo           | - |
-|  7  | Thu Nov  5    | [Classifier-free Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                  | Pardo           | - |
-|  8  | Tue Nov 10    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752)                                                                                            | Pardo           | - |
-|  8  | Thu Nov 12    | The evolution of language modeling: Attention, Embeddings                                                                                       | Pardo           | - |
-|  9  | Tue Nov 17    | Transformers: Positional Encoding, Autoregression: [Attention is all you need](https://arxiv.org/abs/1706.03762)                                                                                              | Pardo           | - |
-|  9  | Thu Nov 19    | Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                                    | Pardo           | - |
-| 10  | Tue Nov 24    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                     | Pardo           | - |
-| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING                                                                                                                                        | Pardo           | - |
-| 11  | Tue Dec  1    | Multimedia Langauge Modeling: ([Diffusion with Transformers](https://arxiv.org/abs/2212.09748), [Dall-E](https://arxiv.org/pdf/2102.12092.pdf))                                                                                                                   | Pardo           | - |
-| 11  | Thu Dec  3    | Ethics of GenAI                                                                                                                                 | Pardo           | - |
-| 12  | Fri Dec 12    | FINAL EXAM NOON - 2PM                                                                                                                           | Pardo           | - |
+| Week|   Day and Date| Topic                                                                                                                                                                                           |Presenter        |Commentators            |
+|----:|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
+|  1  | Thu Sep 24    | NO CLASS: Read [Chapter 4 of Machine Learning](https://interactiveaudiolab.github.io/course-deep-learning/readings/chapter4-ml.pdf) as neural networks refresher                                | Pardo           | - |
+|  2  | Tue Sep 29    | Autoencoders &  [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661v1.pdf)                                                                                                            | Pardo           | - |
+|  2  | Thu Oct  1    | The evolution of language modeling: Attention, Embeddings                                                                                                                                       | Pardo           | - |
+|  3  | Tue Oct  6    | Transformers: Positional Encoding, Autoregression: [Attention is all you need](https://arxiv.org/abs/1706.03762)                                                                                | Pardo           | - |
+|  3  | Thu Oct  8    | Two big model families: Google's [BERT](https://arxiv.org/pdf/1810.04805.pdf) and OpenAI's [GPT](http://jalammar.github.io/illustrated-gpt2/)                                                   | Pardo           | - |
+|  4  | Tue Oct 13    | Sampling strategies: [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) &  [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)          | Pardo           | - |
+|  4  | Thu Oct 15    | Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                                        | Pardo           | - |
+|  5  | Tue Oct 20    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                            | Pardo           | - |
+|  5  | Thu Oct 22    | [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)    | Pardo           | - |
+|  6  | Tue Oct 27    | Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                                  | Pardo           | - |
+|  6  | Thu Oct 29    | NO CLASS: Work on your project proposal.                                                                                                                                                                                        |                 | - |
+|  7  | Tue Nov  3    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937) &  [Dall-E](https://arxiv.org/pdf/2102.12092.pdf)                                                                | Pardo           | - |
+|  7  | Thu Nov  5    | Neural Codecs: [SoundStream](https://arxiv.org/pdf/2107.03312.pdf) & [D-composer](https://interactiveaudiolab.github.io/assets/papers/oreilly2026ismir.pdf)                                     | Pardo           | - |
+|  8  | Tue Nov 10    | Diffusion: [DDPM](https://arxiv.org/abs/2006.11239)                                                                                                                                             | Pardo           | - |
+|  8  | Thu Nov 12    | Diffusion: [DDIM](https://arxiv.org/abs/2010.02502)                                                                                                                                             | Pardo           | - |
+|  9  | Tue Nov 17    | Multimodal Embedding Models: [CLIP](https://arxiv.org/abs/2103.00020) & [CLAP](https://arxiv.org/pdf/2206.04769)                                                                                                                          | Pardo           | - |
+|  9  | Thu Nov 19    | [Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                                  | Pardo           | - |
+| 10  | Tue Nov 24    | [Classifier-free Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                  | Pardo           | - |
+| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING                                                                                                                                                                    | Pardo           | - |
+| 11  | Tue Dec  1    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752) & [Diffusion with Transformers](https://arxiv.org/abs/2212.09748)                                                                          | Pardo           | - |
+| 11  | Thu Dec  3    | [Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf) & [Enabling Training Data Attribution for Users of Generative Music Models](https://interactiveaudiolab.github.io/assets/papers/barnett2026aies.pdf)    | Pardo           | - |
+| 12  | Fri Dec 12    | FINAL PROJECT PRESENTATIONS NOON - 2PM                                                                                                                                                                           | Pardo           | - |
 
 
 
 ## Course assignments
 
-### Reading: 30 points 
-You will submit 10 one-page reviews of readings from the course website. Each review is worth 3 points.
+#### Class Participation: 20 points
+Show up for class. Say smart things. Get points. 
 
-### Class Participation 20 points
-Show up for class, get a point.
+### Reading: 40 points 
+You will submit 10 one-page reviews of readings from the course calendar. Each review is worth 4 points.
 
-### Indiviaul Oral Exam 20 points
-I will select a paper that you did a review of and you'll spend 10 minutes talking with me about it, answering my questions as you go. If I believe you really read and understood the paper, full points. 
-
-### Final Project 30 points
-You will make something that actually does generative modeling. Or you will write a lit review on something that is relevant to your research. Your choice. We'll discuss...
+### Final Project 40 points
+You will make something that actually does generative modeling. Good things to do are: duplicate the result of a paper in generative modeling, write a lit review of GenAI that is relevant to your research, or make a tutorial to explain a particular paper.  Your choice. We'll discuss...
 
 
 <a name="slides"></a>
