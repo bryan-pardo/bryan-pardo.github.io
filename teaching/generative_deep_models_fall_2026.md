@@ -38,7 +38,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 |  4  | Tue Oct 13    | Sampling strategies: [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) &  [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)          | Pardo           | - |
 |  4  | Thu Oct 15    | Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                                        | Pardo           | - |
 |  5  | Tue Oct 20    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                            | Pardo           | - |
-|  5  | Thu Oct 22    | [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)    | Pardo           | - |
+|  5  | Thu Oct 22    | [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html) & [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)    | Pardo           | - |
 |  6  | Tue Oct 27    | Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                                  | Pardo           | - |
 |  6  | Thu Oct 29    | NO CLASS: Work on your project proposal.                                                                                                                                                                                        |                 | - |
 |  7  | Tue Nov  3    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937) &  [Dall-E](https://arxiv.org/pdf/2102.12092.pdf)                                                                | Pardo           | - |
@@ -57,14 +57,17 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 
 ## Course assignments
 
-#### Class Participation: 20 points
+#### Class Participation: 10 points
 Show up for class. Say smart things. Get points. 
 
 ### Reading: 40 points 
-You will submit 10 one-page reviews of readings from the course calendar. Each review is worth 4 points.
+You will submit 10 one-page reviews of readings from the course readings. Each review is worth 4 points.
+
+### Reading discussion: 10 points
+You and I will discuss a paper you submitted a reading review on. You choose the papers you want to review. I choose from your reviews which paper we discuss.
 
 ### Final Project 40 points
-You will make something that actually does generative modeling. Good things to do are: duplicate the result of a paper in generative modeling, write a lit review of GenAI that is relevant to your research, or make a tutorial to explain a particular paper.  Your choice. We'll discuss...
+Good things to do are: duplicate the result of a paper in generative modeling, write a lit review of GenAI that is relevant to your research, or make a tutorial to explain a particular paper.  Your choice. We'll discuss...
 
 
 <a name="slides"></a>
@@ -248,8 +251,6 @@ You will make something that actually does generative modeling. Good things to d
 1. [This blog on RL from human feedback](https://openai.com/research/learning-from-human-preferences): read the paper linked at the start of the blog. It teaches how to learn a reward function from human feedback, so you can do RL.
 
 1. [This blog on aligning language models to follow instructions](https://openai.com/research/instruction-following) together explain how ChatGPT is fine-tuned to do prompt answering by combining proximal policy optimization and RL from human feedback (the two previous papers on this list).
-
-### Alternatives to standard RLHF 
 
 1. [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290): This is the go-to option for people not doing RLHF. It skips having to train a separate reward model.
 
@@ -458,6 +459,8 @@ You will make something that actually does generative modeling. Good things to d
 1. [Sociotechnical Safety Evaluation of Generative AI Systems](https://arxiv.org/pdf/2310.11986.pdf): A big overview paper on how to ensure your generative AI is going to minimize possible harms.
 
 1. [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf): This is the paper that Timnit Gebru and Margaret Mitchell got fired from Google's Ethical AI team for publishing.
+
+1. [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html): a 2025 paper that argues explicitly rewarding cooperation on the Prisoner's dilema will make agents more "moral" 
 
 1. [Alignment of Language Agents](https://arxiv.org/abs/2103.14659): This is Deep Mind's critique of their own approach.
 
