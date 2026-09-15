@@ -40,7 +40,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 |  5  | Tue Oct 20    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                            | Pardo           | - |
 |  5  | Thu Oct 22    | [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html) & [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)    | Pardo           | - |
 |  6  | Tue Oct 27    | Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                                  | Pardo           | - |
-|  6  | Thu Oct 29    | NO CLASS: Work on your project proposal.                                                                                                                                                                                        |                 | - |
+|  6  | Thu Oct 29    | NO CLASS: Work on your project proposal & hand in paper reviews                                                                                                                                                                                        |                 | - |
 |  7  | Tue Nov  3    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937) &  [Dall-E](https://arxiv.org/pdf/2102.12092.pdf)                                                                | Pardo           | - |
 |  7  | Thu Nov  5    | Neural Codecs: [SoundStream](https://arxiv.org/pdf/2107.03312.pdf) & [D-composer](https://interactiveaudiolab.github.io/assets/papers/oreilly2026ismir.pdf)                                     | Pardo           | - |
 |  8  | Tue Nov 10    | Diffusion: [DDPM](https://arxiv.org/abs/2006.11239)                                                                                                                                             | Pardo           | - |
@@ -48,7 +48,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 |  9  | Tue Nov 17    | Multimodal Embedding Models: [CLIP](https://arxiv.org/abs/2103.00020) & [CLAP](https://arxiv.org/pdf/2206.04769)                                                                                                                          | Pardo           | - |
 |  9  | Thu Nov 19    | [Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                                  | Pardo           | - |
 | 10  | Tue Nov 24    | [Classifier-free Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                  | Pardo           | - |
-| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING                                                                                                                                                                    | Pardo           | - |
+| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING. Also, last set of paper reviews are due this week.                                                                                                                                                                 | Pardo           | - |
 | 11  | Tue Dec  1    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752) & [Diffusion with Transformers](https://arxiv.org/abs/2212.09748)                                                                          | Pardo           | - |
 | 11  | Thu Dec  3    | [Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf) & [Enabling Training Data Attribution for Users of Generative Music Models](https://interactiveaudiolab.github.io/assets/papers/barnett2026aies.pdf)    | Pardo           | - |
 | 12  | Fri Dec 12    | FINAL PROJECT PRESENTATIONS NOON - 2PM                                                                                                                                                                           | Pardo           | - |
@@ -57,17 +57,17 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 
 ## Course assignments
 
-#### Class Participation: 10 points
+### Class Participation: 10 points
 Show up for class. Say smart things. Get points. 
 
-### Reading: 40 points 
-You will submit 10 one-page reviews of readings from the course readings. Each review is worth 4 points.
+### Reading: 36 points 
+You will submit 12 one-page reviews of readings from the course readings. Each written review is worth 3 points.
 
-### Reading discussion: 10 points
-You and I will discuss a paper you submitted a reading review on. You choose the papers you want to review. I choose from your reviews which paper we discuss.
+### Reading discussion: 14 points
+You and I will discuss 2 of the papers you submitted a review for, one on one. If I feel like you really read the 2 papers and had thoughts, you get full points.
 
 ### Final Project 40 points
-Good things to do are: duplicate the result of a paper in generative modeling, write a lit review of GenAI that is relevant to your research, or make a tutorial to explain a particular paper.  Your choice. We'll discuss...
+Good things to do are: duplicate the result of a paper in generative modeling, write a lit review of GenAI that is relevant to your research, or make a tutorial to explain the algorithms/architectures of a particular paper.  Your choice. We'll discuss...
 
 
 <a name="slides"></a>
