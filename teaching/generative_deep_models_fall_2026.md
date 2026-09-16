@@ -472,7 +472,7 @@ Good things to do are: duplicate the result of a paper in generative modeling, w
 
 1. [Foregrounding Artist Opinions: A Survey Study on Transparency, Ownership, and Fairness in AI Generative Art](https://arxiv.org/pdf/2401.15497): What do artists think about GenerativeAI?
 
-1. [Understanding Fans' Attitudes Toward AI-generated Fan Content About Their Favorite Musician](https://dl.acm.org/doi/full/10.1145/3706370.3727855): This is about attitudes to consuming AI-generated music and images, as opposed to using AI to produce them.
+1. [Understanding Fans' Attitudes Toward AI-generated Fan Content About Their Favorite Musician](https://dl.acm.org/doi/full/10.1145/3706370.3727855): This is about (mostly) American fans' attitudes to consuming AI-generated music and images, as opposed to using AI to produce them.
 
 ### How bad is the memorization problem in generative models?
 
