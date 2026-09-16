@@ -468,12 +468,13 @@ Good things to do are: duplicate the result of a paper in generative modeling, w
 
 1. [The Ethical Implications of Generative Audio Models: A Systematic Literature Review](https://arxiv.org/pdf/2307.05527.pdf): By Northwestern's own Julia Barnett!
 
-### How do people feel about AI generated content?
+### How do people feel about Consuming and producing AI generated content?
 
 1. [Foregrounding Artist Opinions: A Survey Study on Transparency, Ownership, and Fairness in AI Generative Art](https://arxiv.org/pdf/2401.15497): What do artists think about GenerativeAI?
 
 1. [Understanding Fans' Attitudes Toward AI-generated Fan Content About Their Favorite Musician](https://dl.acm.org/doi/full/10.1145/3706370.3727855): This is about (mostly) American fans' attitudes to consuming AI-generated music and images, as opposed to using AI to produce them.
 
+1. [Enabling Training Data Attribution for Users of Generative Music Models](https://interactiveaudiolab.github.io/assets/papers/barnett2026aies.pdf): Studies the comfort musicians, videographers, and casual creaters have with posting AI-generated music similar to existing human-generated music. 
 ### How bad is the memorization problem in generative models?
 
 1. [Quantifying Memorization Across Neural Language Models](https://arxiv.org/abs/2202.07646): Systematic experiments on how model size, prompt length, and frequency of an example in the training set impact our ability to extract memorized content.
