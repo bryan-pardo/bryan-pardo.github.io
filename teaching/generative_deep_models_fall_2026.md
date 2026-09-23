@@ -63,17 +63,17 @@ You will be a "commentator" for 3 papers throughout the term. To get the points 
 ### Reading: 45 points 
 You will submit 15 one-page reviews of readings from the course readings. Each written review is worth 3 points.
 
-### 1-on-1 Reading discussion: 20 points
+### Final Exam: 1-on-1 Reading discussion: 20 points
 You and I will discuss 2 of the papers you submitted a written review for, one on one. If I feel like you really read the papers and had thoughts, you get full points.
 
 ### Final Project: 20 points
 Possible projects:
 
-1. Duplicate the result in a paper
+1. Duplicate the result in a paper related to generative modeling
 
-1. Do a lit review for a paper on your own sub-area related to generative modeling
+1. Do a domain-specific lit review for a paper on your own sub-area related to generative modeling.
 
-1. Give me 10 more paper reviews...but drawn from the 'readings' section of this website.
+1. Pick one or two of the topics/questions from the long reading list at the end of this web page. Do a deep dive by reading the papers in that topic and writing up your paper reactions. Give me at least 7 one-page-per-paper reactions, plus an overview of your synthesized knowledge from that.
 
 1. Make a tutorial that explains a paper
 
@@ -143,7 +143,7 @@ Possible projects:
 
 1. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385): This introduces the idea of "residual layers", which are layers that are skippable. This idea is used in Transformers.
 
-#### Embeddings 
+#### Understanding Embeddings 
 
 1. [The Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/): Transformers for text take word embeddings as input. So what's a word embedding? This is a walk through word embeddings, at a high level, with no math.
 
@@ -168,6 +168,18 @@ Possible projects:
 1. [Rotary Positional Encoding](https://paperswithcode.com/method/rope#:~:text=Rotary%20Position%20Embedding%2C%20or%20RoPE,dependency%20in%20self%2Dattention%20formulation.): claims to combine the benefits of both absolute and relative positional encoding 
 
 1. [What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding](https://arxiv.org/pdf/2010.04903): Why not learn your positional encoding? What happens if you do that?
+
+#### How and why does model performance scale with size?
+
+1. [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) : This is the 2020 paper that forms basis of the argument for why AI is taking all the energy and all the chips. Note who the authors are...
+
+1. [Supperposition Yields Robust Neural Scaling](https://proceedings.neurips.cc/paper_files/paper/2025/hash/e97ac22927560eb2de6b658498cbc575-Abstract-Conference.html): This 2025 paper basically argues that it is the size of the model's embedding representation that causes us to build bigger and bigger models. Maybe have a look at the parameter-efficient tuning papers for another lens on this.
+
+#### Parameter Efficient Fine Tuning (PEFT) of langauge models
+
+1. [LORA: Low-rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf): Microsoft's approach to fast, efficient retraining for downstream tasks.
+
+1. [Parameter-Efficient Transfer Learning for NLP](https://proceedings.mlr.press/v97/houlsby19a.html): A well-cited clasic for fine-tuning language models.
 
 #### BERT and GPT, two foundational architectures 
 
@@ -210,6 +222,7 @@ Possible projects:
 
 1. [Longformer: The Long-Document Transformer](https://arxiv.org/pdf/2004.05150):  Longformer’s attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. This is a widely cited paper. 
 
+
 #### Reasoning and Memory in Transformers
 
 1. [Memory Transformer](https://arxiv.org/abs/2006.11527)
@@ -222,6 +235,7 @@ Possible projects:
 
 1. [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html): A 2026 paper from Anthropic that claims they can study jacobians to find places in transformers that are working as a global workspace for thought, framed in language tokens. They don't go all the way to say it is "consciousness", but you can tell they kind of want to go there.
 
+
 #### How to tokenize audio to allow language modeling of sound
 
 1. [WAV2VEC: UNSUPERVISED PRE-TRAINING FOR SPEECH RECOGNITION](https://arxiv.org/pdf/1904.05862.pdf): This describes a way to build a dictionary of audio tokens that is used in MusicLM
@@ -231,6 +245,7 @@ Possible projects:
 1. [SoundStream: An End-to-End Neural Audio Codec](https://arxiv.org/pdf/2107.03312.pdf): Perhaps the top (as of 2023) audio codec. It is used in multiple audio langague models to tokenize the audio for the language model.
 
 1. [High-Fidelity Audio Compression with Improved RVQGAN](https://arxiv.org/pdf/2306.06546): This is SOTA for audio encoders, as of July 2024
+
 
 #### Using language models on audio tokens
 
@@ -242,11 +257,6 @@ Possible projects:
 
 1. [Vampnet: Music Generation via Masked Acoustic Token Modeling](https://arxiv.org/abs/2307.04686): Generating non-autoregressively, similar to MaskGit
 
-#### Parameter Efficient Fine Tuning (PEFT) of langauge models
-
-1. [LORA: Low-rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf): Microsoft's approach to fast, efficient retraining for downstream tasks.
-
-1. [Parameter-Efficient Transfer Learning for NLP](https://proceedings.mlr.press/v97/houlsby19a.html): A well-cited clasic for fine-tuning language models.
 
 ### Reinforcement learning for Model Alignment 
 
@@ -270,7 +280,8 @@ Possible projects:
 
 1. [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300): This 224 paper introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that the DeepSeek folks claim enhances mathematical reasoning abilities while optimizing the memory usage of PPO.
 
-1. [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://arxiv.org/html/2603.12228v1): New for 2026! Just randomly jiggle your weights...
+1. [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://arxiv.org/html/2603.12228v1): New for 2026! No need for fine-tuning. Just randomly jiggle your weights...
+
 
 ### Multimodal Langauge Modeling
 
@@ -281,9 +292,6 @@ Possible projects:
 1. [LLark: A Multimodal Foundation Model for Music](https://arxiv.org/abs/2310.07160): Mix Jukebox and Llama 2 and you get this.
 
 
-### Making Language Models Safe
-
-1. [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/pdf/2404.13208)
 
 ### GENERATIVE ADVERSARIAL NETWORKS (GANS)
 
@@ -462,23 +470,28 @@ Possible projects:
 
 1. [DITTO:Diffusion Inference-Time T-Optimization for Music Generation](https://ditto-music.github.io/web/)
 
-### Ethics and Societal Effects of Generative Modeling
+### Raising Awareness about ethical and societal effects of GenAI
 
 1. [Pam Samuelson's AI Meets Copyright](https://www.youtube.com/watch?v=6sDGIrVO6mo). This is a video lecture on generative AI and copyright law from one of top copyright scholars in the USA.
 
 1. [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)
 
-1. [Sociotechnical Safety Evaluation of Generative AI Systems](https://arxiv.org/pdf/2310.11986.pdf): A big overview paper on how to ensure your generative AI is going to minimize possible harms.
-
 1. [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf): This is the paper that Timnit Gebru and Margaret Mitchell got fired from Google's Ethical AI team for publishing.
-
-1. [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html): a 2025 paper that argues explicitly rewarding cooperation on the Prisoner's dilema will make agents more "moral" 
 
 1. [Alignment of Language Agents](https://arxiv.org/abs/2103.14659): This is Deep Mind's critique of their own approach.
 
 1. [Open AI's analysis of GPT-4 potential harms](https://cdn.openai.com/papers/gpt-4-system-card.pdf): Worth a serious read
 
 1. [The Ethical Implications of Generative Audio Models: A Systematic Literature Review](https://arxiv.org/pdf/2307.05527.pdf): By Northwestern's own Julia Barnett!
+
+### Technological approaches to doing something about ethical and safety concerns
+
+1. [Sociotechnical Safety Evaluation of Generative AI Systems](https://arxiv.org/pdf/2310.11986.pdf): A big overview paper on how to ensure your generative AI is going to minimize possible harms.
+
+1. [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html): a 2025 paper that argues explicitly rewarding cooperation on the Prisoner's dilema will make agents more "moral" 
+
+1. [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/pdf/2404.13208)
+
 
 ### How do people feel about Consuming and producing AI generated content?
 
@@ -507,17 +520,22 @@ Possible projects:
 1. [Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf): Just what it sounds like.
 
 
-### TOPICS NOT COVERD IN CLASS (BUT THAT ARE WORTH LEARNING ABOUT)
+### OTHER TOPICS NOT COVERD IN CLASS (BUT THAT ARE WORTH LEARNING ABOUT)
 
 #### Normalizing Flows
+
 1. [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.html): The 2015 paper that introduces a differentiable method to take a simple distribution and make it arbitrarily complex. 
 
 1. [Normalizing Flows for Probabilistic Modeling and Inference](): A 2021 paper that discusses fundamental principles of flow design, expressive power and computational trade-oﬀs, all in a generative modeling context.
 
+1. [An Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf): Course notes from MIT Class 6.S184: Generative AI With Stochastic Differential Equations, 2026
+
 #### FILM Layers
+
 1. [FiLM: Visual Reasoning with a General Conditioning Layer](https://www.researchgate.net/publication/320014293_FiLM_Visual_Reasoning_with_a_General_Conditioning_Layer): Affine transformation of input layers that proves helpful in many contextx. Here's [the TL;DR version](https://ml-retrospectives.github.io/neurips2019/accepted_retrospectives/2019/film/). I'd start with the TL;DR.
 
 #### Structured State Space Models
+
 1. [Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396)
 
 1. [The Annotated S4](https://srush.github.io/annotated-s4/): This is a guided walk through (with code) of a structured state space model.
@@ -555,4 +573,3 @@ Possible projects:
 
 1. [Live Music Diffusion Models](https://arxiv.org/pdf/2605.22717):a simple modification of the generative diffusion process that has the inference complexity of the discrete Live Music Models (LMMs).
 
-1. [An Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf): Course notes from MIT Class 6.S184: Generative AI With Stochastic Differential Equations, 2026
