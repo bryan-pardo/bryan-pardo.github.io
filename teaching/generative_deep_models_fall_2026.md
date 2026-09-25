@@ -38,7 +38,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 |  4  | Tue Oct 13    | Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                                        | Pardo           | - |
 |  4  | Thu Oct 15    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                            | Pardo           | - |
 |  5  | Tue Oct 20    | [Your Brain on ChatGPT](https://collimateur.uqam.ca/wp-content/uploads/sites/11/2025/12/2506.08872v1_comp.pdf) & [...The Rise of Cognitive Surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646)| Pardo           | - |
-|  5  | Thu Oct 22    | [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html) & [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)    | Pardo           | - |
+|  5  | Thu Oct 22    | [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html) &  [Report on the OpenAI / Hugging Face hacking incident](https://metr.org/hugging-face-incident-report-aug-2026.pdf)| Pardo           | - |
 |  6  | Tue Oct 27    | Autoencoders & Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                   | Pardo           | - |
 |  6  | Thu Oct 29    | NO CLASS: Work on your project proposal & hand in paper reviews                                                                                                                                 | N/A             | - |
 |  7  | Tue Nov  3    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937) &  [Dall-E](https://arxiv.org/pdf/2102.12092.pdf)                                                                | Pardo           | - |
@@ -50,7 +50,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 | 10  | Tue Nov 24    | [Classifier-free Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                  | Pardo           | - |
 | 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING. Also, last set of paper reviews are due this week.                                                                                                                | N/A             | - |
 | 11  | Tue Dec  1    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752) & [Diffusion with Transformers](https://arxiv.org/abs/2212.09748)                                                                          | Pardo           | - |
-| 11  | Thu Dec  3    | [Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf) & [Enabling Training Data Attribution for Users of Generative Music Models](https://interactiveaudiolab.github.io/assets/papers/barnett2026aies.pdf)    | Pardo           | - |
+| 11  | Thu Dec  3    | [Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf) & [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)  | Pardo           | - |
 | 12  | Fri Dec 12    | FINAL EXAM: One on one reading discussion                                                                                                                                                       | Students        | - |
 
 
@@ -482,7 +482,7 @@ Possible projects:
 
 1. [Open AI's analysis of GPT-4 potential harms](https://cdn.openai.com/papers/gpt-4-system-card.pdf): Worth a serious read
 
-1. [The Ethical Implications of Generative Audio Models: A Systematic Literature Review](https://arxiv.org/pdf/2307.05527.pdf): By Northwestern's own Julia Barnett!
+1. [Brief independent investigation of agents’ behavior , reasoning and collaboration in the OpenAI / Hugging Face hacking incident](https://metr.org/hugging-face-incident-report-aug-2026.pdf): This is from August 2026
 
 ### Technological approaches to doing something about ethical and safety concerns
 
@@ -491,7 +491,6 @@ Possible projects:
 1. [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html): a 2025 paper that argues explicitly rewarding cooperation on the Prisoner's dilema will make agents more "moral" 
 
 1. [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://arxiv.org/pdf/2404.13208)
-
 
 ### How do people feel about Consuming and producing AI generated content?
 
