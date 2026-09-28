@@ -51,7 +51,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 | 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING. Also, last set of paper reviews are due this week.                                                                                                                | N/A             | - |
 | 11  | Tue Dec  1    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752) & [Diffusion with Transformers](https://arxiv.org/abs/2212.09748)                                                                          | Pardo           | - |
 | 11  | Thu Dec  3    | [Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf) & [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)  | Pardo           | - |
-| 12  | Fri Dec 12    | FINAL EXAM: One on one reading discussion                                                                                                                                                       | Students        | - |
+| 12  | Fri Dec 12    | FINAL EXAM                                                                                                                                                    | Students        | - |
 
 
 
@@ -60,20 +60,20 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 ### Class Participation: 15 points
 You will be a "commentator" for 3 papers throughout the term. To get the points you need to be there the day we discuss your paper, you need to understand the paper and be able to discuss it and answer questions about it interactively.
 
-### Reading: 45 points 
-You will submit 15 one-page reviews of readings from the course readings. Each written review is worth 3 points.
+### Reading: 60 points 
+Each week, starting in week 2, you will submit 2 one-page reading reactions, written by YOU (not a language model). The readings must be drawn from the class calendar. Each reaction is 3 points. 
 
-### Final Exam: 1-on-1 Reading discussion: 20 points
+### Final Exam: 1-on-1 Reading discussion: 10 points
 You and I will discuss 2 of the papers you submitted a written review for, one on one. If I feel like you really read the papers and had thoughts, you get full points.
 
-### Final Project: 20 points
+### Final Project: 15 points
 Possible projects:
 
 1. Duplicate the result in a paper related to generative modeling
 
 1. Do a domain-specific lit review for a paper on your own sub-area related to generative modeling.
 
-1. Pick one or two of the topics/questions from the long reading list at the end of this web page. Do a deep dive by reading the papers in that topic and writing up your paper reactions. Give me at least 7 one-page-per-paper reactions, plus an overview of your synthesized knowledge from that.
+1. Pick one or two of the topics/questions from the long reading list at the end of this web page. Do a deep dive by reading the papers in that topic and writing up your paper reactions. Give me at least 5 one-page-per-paper reactions, plus an overview of your synthesized knowledge from that.
 
 1. Make a tutorial that explains a paper
 
