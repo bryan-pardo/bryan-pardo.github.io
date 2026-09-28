@@ -32,14 +32,15 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 |----:|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
 |  1  | Thu Sep 24    | NO CLASS: Read [Chapter 4 of Machine Learning](https://interactiveaudiolab.github.io/course-deep-learning/readings/chapter4-ml.pdf) as neural networks refresher                                | Pardo           | - |
 |  2  | Tue Sep 29    | The evolution of language modeling: Attention, Embeddings                                                                                                                                       | Pardo           | - |
+|     |               | [The Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/), [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)              | Pardo           | - |
 |  2  | Thu Oct  1    | Transformers: Positional Encoding, Autoregression: [Attention is all you need](https://arxiv.org/abs/1706.03762)                                                                                | Pardo           | - |
 |  3  | Tue Oct  6    | Two big model families: Google's [BERT](https://arxiv.org/pdf/1810.04805.pdf) and OpenAI's [GPT](http://jalammar.github.io/illustrated-gpt2/)                                                   | Pardo           | - |
 |  3  | Thu Oct  8    | Sampling strategies: [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) &  [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)          | Pardo           | - |
-|  4  | Tue Oct 13    | Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                                        | Pardo           | - |
-|  4  | Thu Oct 15    | Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                            | Pardo           | - |
+|  4  | Tue Oct 13    | *ON ZOOM* Deep Reinforcement Learning: [PPO](https://arxiv.org/pdf/1707.06347.pdf)                                                                                                              | Pardo           | - |
+|  4  | Thu Oct 15    | *ON ZOOM* Reinforcement Learning from Human Feedback: [RLHF](https://arxiv.org/pdf/2203.02155)                                                                                                  | Pardo           | - |
 |  5  | Tue Oct 20    | [Your Brain on ChatGPT](https://collimateur.uqam.ca/wp-content/uploads/sites/11/2025/12/2506.08872v1_comp.pdf) & [...The Rise of Cognitive Surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646)| Pardo           | - |
 |  5  | Thu Oct 22    | [Moral Alignment for LLM Agents](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f2b1bad4756ceee8f408e16b8e6e4383-Abstract-Conference.html) &  [Report on the OpenAI / Hugging Face hacking incident](https://metr.org/hugging-face-incident-report-aug-2026.pdf)| Pardo           | - |
-|  6  | Tue Oct 27    | Autoencoders & Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                                   | Pardo           | - |
+|  6  | Tue Oct 27    | *ON ZOOM* Autoencoders & Variational Autoencoders: [Tutorial on VAEs](https://arxiv.org/abs/1606.05908)                                                                                         | Pardo           | - |
 |  6  | Thu Oct 29    | NO CLASS: Work on your project proposal & hand in paper reviews                                                                                                                                 | N/A             | - |
 |  7  | Tue Nov  3    | Quantized Variational Autoencoders: [VQ-VAE](https://arxiv.org/abs/1711.00937) &  [Dall-E](https://arxiv.org/pdf/2102.12092.pdf)                                                                | Pardo           | - |
 |  7  | Thu Nov  5    | Neural Codecs: [SoundStream](https://arxiv.org/pdf/2107.03312.pdf) & [D-composer](https://interactiveaudiolab.github.io/assets/papers/oreilly2026ismir.pdf)                                     | Pardo           | - |
@@ -48,7 +49,7 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 |  9  | Tue Nov 17    | Multimodal Embedding Models: [CLIP](https://arxiv.org/abs/2103.00020) & [CLAP](https://arxiv.org/pdf/2206.04769)                                                                                | Pardo           | - |
 |  9  | Thu Nov 19    | [Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                                  | Pardo           | - |
 | 10  | Tue Nov 24    | [Classifier-free Guidance](https://benanne.github.io/2022/05/26/guidance.html)                                                                                                                  | Pardo           | - |
-| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING. Also, last set of paper reviews are due this week.                                                                                                                | N/A             | - |
+| 10  | Thu Nov 26    | NO CLASS: HAPPY THANKSGIVING.                                                                                                                                                                   | N/A             | - |
 | 11  | Tue Dec  1    | [Latent Diffusion](https://arxiv.org/pdf/2112.10752) & [Diffusion with Transformers](https://arxiv.org/abs/2212.09748)                                                                          | Pardo           | - |
 | 11  | Thu Dec  3    | [Investigating Data Replication in Diffusion Models](https://arxiv.org/pdf/2212.03860.pdf) & [Allocating Ownership Rights in Computer Generated Works](https://www.law.berkeley.edu/wp-content/uploads/2024/01/Pam-Samuelson-Allocating-Ownership-Rights-in-Computer-Generated-Works.pdf)  | Pardo           | - |
 | 12  | Fri Dec 12    | FINAL EXAM                                                                                                                                                    | Students        | - |
@@ -57,13 +58,13 @@ PREREQUISITES: Course admission is by permission of instructor. The best Northwe
 
 ## Course assignments
 
-### Class Participation: 15 points
-You will be a "commentator" for 3 papers throughout the term. To get the points you need to be there the day we discuss your paper, you need to understand the paper and be able to discuss it and answer questions about it interactively.
+### Class Participation: 10 points
+You will be a "commentator" in 2 class sessions throughout the term. To get the points you need to be there the day we discuss your paper, you need to understand the paper and be able to discuss it and answer questions about it interactively.
 
 ### Reading: 60 points 
 Each week, starting in week 2, you will submit 2 one-page reading reactions, written by YOU (not a language model). The readings must be drawn from the class calendar. Each reaction is 3 points. 
 
-### Final Exam: 1-on-1 Reading discussion: 10 points
+### Final Exam: 1-on-1 Reading discussion: 15 points
 You and I will discuss 2 of the papers you submitted a written review for, one on one. If I feel like you really read the papers and had thoughts, you get full points.
 
 ### Final Project: 15 points
