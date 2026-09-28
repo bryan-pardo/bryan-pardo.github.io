@@ -572,3 +572,4 @@ Possible projects:
 
 1. [Live Music Diffusion Models](https://arxiv.org/pdf/2605.22717):a simple modification of the generative diffusion process that has the inference complexity of the discrete Live Music Models (LMMs).
 
+1. [Evaluating Skills, Not Just Agents: Agentic Continuous Evaluation of Skills](https://arxiv.org/pdf/2608.20614): Is that skills file really helping. Here's how to measure that.
