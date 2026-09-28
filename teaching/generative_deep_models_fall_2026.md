@@ -521,6 +521,12 @@ Possible projects:
 
 ### OTHER TOPICS NOT COVERD IN CLASS (BUT THAT ARE WORTH LEARNING ABOUT)
 
+#### Giving the LLM new (human readable) skills
+
+1. [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/pdf/2605.23904): A 2026 paper on an algorithm to learn to create better "skills.md" files as background information prompts.
+
+1. [Evaluating Skills, Not Just Agents: Agentic Continuous Evaluation of Skills](https://arxiv.org/pdf/2608.20614): Is that skills file really helping? Here's how to measure that.
+
 #### Normalizing Flows
 
 1. [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.html): The 2015 paper that introduces a differentiable method to take a simple distribution and make it arbitrarily complex. 
@@ -558,7 +564,6 @@ Possible projects:
 
 #### Pardo's latest random reads...
 
-1. [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/pdf/2605.23904): A 2026 paper on an algorithm to learn to create better "skills.md" files as background information prompts.
 
 1. [LVLMs and Humans Ground Differently in Referential Communication](https://arxiv.org/pdf/2601.19792): How do Language Vision Models find common ground?
 
@@ -572,4 +577,6 @@ Possible projects:
 
 1. [Live Music Diffusion Models](https://arxiv.org/pdf/2605.22717):a simple modification of the generative diffusion process that has the inference complexity of the discrete Live Music Models (LMMs).
 
-1. [Evaluating Skills, Not Just Agents: Agentic Continuous Evaluation of Skills](https://arxiv.org/pdf/2608.20614): Is that skills file really helping. Here's how to measure that.
+1. [ScreenAudit: Detecting Screen Reader Accessibility Errors in Mobile Apps Using Large Language Models](https://dl.acm.org/doi/full/10.1145/3706598.3713797)
+
+1. [How Well Can Vision Language Models Simulate the Vision Perception of People with Low Vision?](https://dl.acm.org/doi/full/10.1145/3663547.3759715)
