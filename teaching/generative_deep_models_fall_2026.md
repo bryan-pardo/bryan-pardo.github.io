@@ -5,7 +5,7 @@
 |[**Top**](#top)|  [**Calendar**](#calendar)| [**Slides**](#slides)|  [**Readings**](#readings)| 
 
 #### Location
-Technological Institute LG68
+Technological Institute M177
 
 #### Class Day/Time
 Tue Thu 3:30pm - 5:00pm
