@@ -562,8 +562,7 @@ Possible projects:
 
 1. [A list of mechanistic interpretability papers](https://transformer-circuits.pub/)
 
-#### Pardo's latest random reads...
-
+#### Pardo's latest random reads (not guaranteed to be high quality. They're literally the latest reads)
 
 1. [LVLMs and Humans Ground Differently in Referential Communication](https://arxiv.org/pdf/2601.19792): How do Language Vision Models find common ground?
 
