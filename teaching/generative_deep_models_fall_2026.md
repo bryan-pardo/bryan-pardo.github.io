@@ -233,7 +233,7 @@ Possible projects:
 
 1. [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf)
 
-1. [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html): A 2026 paper from Anthropic that claims they can study jacobians to find places in transformers that are working as a global workspace for thought, framed in language tokens. They don't go all the way to say it is "consciousness", but you can tell they kind of want to go there.
+1. [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html): A 2026 paper from Anthropic that claims they can study Jacobians to find places in transformers that are working as a global workspace for thought, framed in language tokens. They don't go all the way to say it is "consciousness", but you can tell they kind of want to go there.
 
 
 #### How to tokenize audio to allow language modeling of sound
@@ -270,6 +270,8 @@ Possible projects:
 
 1. [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf): The paper that (mostly) explains PPO, the RL approach used in InstructGPT (the precursor to ChatGPT)
 
+1. [Implementation Matters in Deep Policy Gradients](https://arxiv.org/pdf/2005.12729): The PPO paper says it improves on a previous paper (TRPO) due to algorithmic improvements. This paper claims the algorithm isn't fundamentally better and it was all in the implementation details. 
+
 1. [This blog on RL from human feedback](https://openai.com/research/learning-from-human-preferences): read the paper linked at the start of the blog. It teaches how to learn a reward function from human feedback, so you can do RL.
 
 1. [This blog on aligning language models to follow instructions](https://openai.com/research/instruction-following) together explain how ChatGPT is fine-tuned to do prompt answering by combining proximal policy optimization and RL from human feedback (the two previous papers on this list).
@@ -278,7 +280,7 @@ Possible projects:
 
 1. [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306): Directly maximizes the utility of generations instead of maximizing the log-likelihood of preferences. Maybe better than DPO?
 
-1. [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300): This 224 paper introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that the DeepSeek folks claim enhances mathematical reasoning abilities while optimizing the memory usage of PPO.
+1. [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300): This 2024 paper introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that the DeepSeek folks claim enhances mathematical reasoning abilities while optimizing the memory usage of PPO.
 
 1. [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://arxiv.org/html/2603.12228v1): New for 2026! No need for fine-tuning. Just randomly jiggle your weights...
 
@@ -433,7 +435,7 @@ Possible projects:
 
 1. [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/): Stability AI made a great diffusuion model. Here's a high-level overview of how it works.
 
-#### Combining Diffusion and Transformers
+#### Combining Diffusion and Transformers (DiT)
 
 1. [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html): A 2023 paper that uses a Transformer architecture to do diffusion
 
@@ -527,7 +529,7 @@ Possible projects:
 
 1. [Evaluating Skills, Not Just Agents: Agentic Continuous Evaluation of Skills](https://arxiv.org/pdf/2608.20614): Is that skills file really helping? Here's how to measure that.
 
-#### Normalizing Flows
+#### Normalizing Flows, an alternative to diffusion
 
 1. [Variational Inference with Normalizing Flows](http://proceedings.mlr.press/v37/rezende15.html): The 2015 paper that introduces a differentiable method to take a simple distribution and make it arbitrarily complex. 
 
@@ -539,7 +541,7 @@ Possible projects:
 
 1. [FiLM: Visual Reasoning with a General Conditioning Layer](https://www.researchgate.net/publication/320014293_FiLM_Visual_Reasoning_with_a_General_Conditioning_Layer): Affine transformation of input layers that proves helpful in many contextx. Here's [the TL;DR version](https://ml-retrospectives.github.io/neurips2019/accepted_retrospectives/2019/film/). I'd start with the TL;DR.
 
-#### Structured State Space Models
+#### Structured State Space Models (SSMs)
 
 1. [Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396)
 
