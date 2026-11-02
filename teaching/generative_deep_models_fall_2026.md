@@ -370,6 +370,8 @@ Possible projects:
 
 1. [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937): This introduces the vector-quantized variational auto encoder
 
+1. [FINITE SCALAR QUANTIZATION: VQ-VAE MADE SIMPLE](https://arxiv.org/pdf/2309.15505): This 2023 paper vector quantizes in an easier way than standard VQ-VAE.
+
 1. [Conditional VAE: Learning Structured Output Representation using Deep Conditional Generative Models](http://www.cs.toronto.edu/~bonner/courses/2020s/csc2547/papers/generative/conditional-image-generation/conditional-vae,-sohn,-nips2015.pdf): Making a controllable VAE through conditioning
 
 1. [Beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework ](https://openreview.net/forum?id=Sy2fzU9gl): This is about making disentangled representations: making the VAEs latent variables meaningful to us.
