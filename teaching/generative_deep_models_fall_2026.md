@@ -101,7 +101,7 @@ Possible projects:
 
 1. [Deep Reinforcement Learning: Human Feedback](/generative_deep_models/6_deep_RL_3_human_feedback.pdf)
 
-1. [Variational Inference](/generative_deep_models/7_variational_inference.pdf)
+1. [Statistics Background](/generative_deep_models/7_statsistics_background.pdf)
 
 1. [Variational Autoencoders](/generative_deep_models/8_variational_autoencoders.pdf)
 
