@@ -504,11 +504,13 @@ Possible projects:
 
 1. [Enabling Training Data Attribution for Users of Generative Music Models](https://interactiveaudiolab.github.io/assets/papers/barnett2026aies.pdf): Studies the comfort musicians, videographers, and casual creaters have with posting AI-generated music similar to existing human-generated music. 
 
-### What does using AI do to our thinking?
+### What does using AI do to our thinking and learning?
 
 1. [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://collimateur.uqam.ca/wp-content/uploads/sites/11/2025/12/2506.08872v1_comp.pdf) 
 
 1. [Thinking—Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646) 
+
+1. [Automation, AI, and the Intergenerational Transmission of Knowledge](https://arxiv.org/pdf/2507.16078)
 
 ### How bad is the memorization problem in generative models?
 
