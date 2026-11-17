@@ -177,7 +177,7 @@ Possible projects:
 
 #### Parameter Efficient Fine Tuning (PEFT) of langauge models
 
-1. [LORA: Low-rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf): Microsoft's approach to fast, efficient retraining for downstream tasks.
+1. [LORA: Low-rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf): Microsoft's approach to fast, efficient retraining for downstream tasks. This is widely used.
 
 1. [Parameter-Efficient Transfer Learning for NLP](https://proceedings.mlr.press/v97/houlsby19a.html): A well-cited clasic for fine-tuning language models.
 
