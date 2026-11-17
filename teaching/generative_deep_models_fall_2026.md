@@ -141,7 +141,7 @@ Possible projects:
 
 1. [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf): This paper introduces multiplicative attention, which is what Transformers use. 
 
-1. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385): This introduces the idea of "residual layers", which are layers that are skippable. This idea is used in Transformers.
+1. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385): This introduces the ResNet, which embodies the idea of "residual layers", which are layers that are skippable. This idea is used in Transformers.
 
 #### Understanding Embeddings 
 
@@ -258,7 +258,16 @@ Possible projects:
 1. [Vampnet: Music Generation via Masked Acoustic Token Modeling](https://arxiv.org/abs/2307.04686): Generating non-autoregressively, similar to MaskGit
 
 
-### Reinforcement learning for Model Alignment 
+#### Multi modal language models
+
+1. [GPT-4 with vision (GPT-4V)](https://openai.com/research/gpt-4v-system-card): enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available
+
+1. [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io):a large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding
+
+1. [LLark: A Multimodal Foundation Model for Music](https://arxiv.org/abs/2310.07160): Mix Jukebox and Llama 2 and you get this.
+
+
+### REINFORCEMENT LEARNING 
 
 1. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): This is an entire book, but it is the one I learned RL from. 
 
@@ -283,16 +292,6 @@ Possible projects:
 1. [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/pdf/2402.03300): This 2024 paper introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that the DeepSeek folks claim enhances mathematical reasoning abilities while optimizing the memory usage of PPO.
 
 1. [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://arxiv.org/html/2603.12228v1): New for 2026! No need for fine-tuning. Just randomly jiggle your weights...
-
-
-### Multimodal Langauge Modeling
-
-1. [GPT-4 with vision (GPT-4V)](https://openai.com/research/gpt-4v-system-card): enables users to instruct GPT-4 to analyze image inputs provided by the user, and is the latest capability we are making broadly available
-
-1. [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io):a large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding
-
-1. [LLark: A Multimodal Foundation Model for Music](https://arxiv.org/abs/2310.07160): Mix Jukebox and Llama 2 and you get this.
-
 
 
 ### GENERATIVE ADVERSARIAL NETWORKS (GANS)
@@ -368,7 +367,7 @@ Possible projects:
 
 #### ADVANCED VAEs
 
-1. [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937): This introduces the vector-quantized variational auto encoder
+1. [VQ-VAE: Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937): This introduces the vector-quantized variational auto encoder. This is used in audio and image tokenization for making Audio/Visual Transformers
 
 1. [FINITE SCALAR QUANTIZATION: VQ-VAE MADE SIMPLE](https://arxiv.org/pdf/2309.15505): This 2023 paper vector quantizes in an easier way than standard VQ-VAE.
 
@@ -386,7 +385,8 @@ Possible projects:
 
 1. [From Autoencoder to Beta-VAE](https://lilianweng.github.io/posts/2018-08-12-vae/): Lilian Weng's overview of most kinds of autoencoders
 
-#### VAE Applications
+
+#### VAE Applications 
 
 1. [MUSIC VAE: Learning Latent Representations of Music to Generate Interactive Musical Palettes](http://ceur-ws.org/Vol-2068/milc7.pdf): Making controllable music composition with VAEs
 
@@ -394,6 +394,7 @@ Possible projects:
 
 1. [Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations](https://www.nature.com/articles/s41551-021-00689-x): Using a WAE to generate new drugs
 
+1. [RAVE: A variational autoencoder for fast and high-quality neural audio synthesis](https://arxiv.org/abs/2111.05011): A popular 2021 model for real-time music audio generation.
 
 ### Diffusion Models 
 
@@ -414,13 +415,14 @@ Possible projects:
 1. [The Hugging Face DDIM Notebook](https://huggingface.co/learn/diffusion-course/en/unit4/2): Once you have DDIM Models, you can use it for image editing. Here's how...
 
 
-### Score Models (The Yang Song section of this page)
+#### Score Models (The Yang Song section of this page)
 
 1. [Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.github.io/blog/2021/score/#connection-to-diffusion-models-and-others): This is a blog that explains how score-based models are also basically diffusion models.
 
 1. [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456):This is the 2021 paper that explicitly bridges the gap between discrete diffusion models (like DDPM/DDIM), score matching, and continuous-time differential equations.
 
 1. [The GitHub page for Score-Based Generative Modeling through SDEs](https://github.com/yang-song/score_sde): Here's the code for the paper.
+
 
 #### Advanced Diffussion and Score Models
 
@@ -452,6 +454,21 @@ Possible projects:
 
 1. [Consistency Trajectory Models](https://consistencytrajectorymodel.github.io/CTM/). For single-step diffusion model sampling, CTM offers diverse sampling options and balances computational budget with sample fidelity effectively.
 
+
+#### CLIP and CLAP: Multimodal embeddings
+
+1. [Representation learning with contrastive predictive coding](): This 2018 paper presents the InfoNCE contrastive loss function used in CLIP
+
+1. [An image is worth 16x16 words: Transformers for image recognition at scale](https://welzin.ai/papers/vit.pdf):This is the famous 2021 Vision Transformers (ViT) paper. ViTs are ued in CLIP
+
+1. [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020): The CLIP representation. This is used in DALL-E-2...and many other papers
+
+1. [CLAP: learning Audio Concepts from Natural Language Supervision](https://arxiv.org/pdf/2206.04769): THe 2022 paper that duplicated CLIP in the audio world
+
+1. [Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://ieeexplore.ieee.org/abstract/document/10095969?casa_token=Prv4S-o2yMUAAAAA:uOOqSUsZD-AdHA4Ue35obJvGdPkZD2esWatbEQl5zbhW5ejZsLHeD1W8Pw8D8PBobVayDuPH): The 2023 paper introducing LAION-CLAP, which is the most widely used CLAP variant. 
+
+
+
 #### Steerable diffusion (text conditioning)
 
 1. [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/pdf/2105.05233.pdf): This paper describes many technical details used in the GLIDE paper...and therefore in DALL-E-2.  It introduces classifer guidance
@@ -461,8 +478,6 @@ Possible projects:
 1. [Guidance: a cheat code for diffusion models](https://benanne.github.io/2022/05/26/guidance.html): if you want to understand DALL-E-2 and Imagen, you need to understand this. It's an easier-to-follow explanation of the Classifier-free Diffusion Guidance idea.
 
 1. [GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models](https://arxiv.org/abs/2112.10741): This is paper that lays the groundwork for  DALL-E-2. 
-
-1. [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020): The CLIP representation. This is used in DALL-E-2.
 
 1. [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/pdf/2204.06125.pdf): The DALL-E-2 paper. 
 
