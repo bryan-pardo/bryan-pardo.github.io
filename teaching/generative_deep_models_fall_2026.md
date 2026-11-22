@@ -583,6 +583,8 @@ Possible projects:
 
 1. [A list of mechanistic interpretability papers](https://transformer-circuits.pub/)
 
+1. [Mechanistic estimation for wide random MLPs](https://www.alignment.org/blog/mechanistic-estimation-for-wide-random-mlps/): Can you estimate what a model will do without running the model? This paper claims you can.
+
 #### Pardo's latest random reads (not guaranteed to be high quality. They're literally the latest reads)
 
 1. [LVLMs and Humans Ground Differently in Referential Communication](https://arxiv.org/pdf/2601.19792): How do Language Vision Models find common ground?
