@@ -587,6 +587,10 @@ Possible projects:
 
 #### Pardo's latest random reads (not guaranteed to be high quality. They're literally the latest reads)
 
+1.[https://arxiv.org/abs/2605.05179](https://arxiv.org/abs/2605.05179): Nov 2026. What if you could train a network WITHOUT EVER RUNNING DATA THROUGH IT? Here's how.
+
+1. [blah](https://arxiv.org/pdf/2604.28190v1): April 2026. Could Frechet Inception Distance be a loss function? Yes. Yes it could. Here's how.
+
 1. [LVLMs and Humans Ground Differently in Referential Communication](https://arxiv.org/pdf/2601.19792): How do Language Vision Models find common ground?
 
 1. [Causal Tracing of Audio-Text Fusion in Large Audio Language Models](https://arxiv.org/pdf/2603.13768): Where do Language Audio Models merge the language and the audio?
