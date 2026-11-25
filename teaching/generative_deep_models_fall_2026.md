@@ -203,11 +203,14 @@ Possible projects:
 1. [Anticipatory Music Transformer: A Controllable Infilling Model for Music](https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html)
 
 
-#### Making Images with Transformers
+#### Making Images with Autoregressive Language Modeling
 
 1. [Image GPT](https://openai.com/blog/image-gpt/): Using a Transformer to make images. This isn't DALL-E, even though it's by OpenAI.
 
 1. [Zero-Shot Text-to-Image Generation](https://arxiv.org/pdf/2102.12092.pdf): This is the original version of DALL-E, which generates images conditioned on text captions. It is based on Transformer architecture.
+
+
+#### Making Images with Masked Language Modeling 
 
 1. [MaskGIT: Masked Generative Image Transformer](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html)  This lets you generate in PARALLEL, not auto-regressively
 
@@ -439,13 +442,15 @@ Possible projects:
 
 1. [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/): Stability AI made a great diffusuion model. Here's a high-level overview of how it works.
 
-#### Combining Diffusion and Transformers (DiT)
+#### Diffusion Transformers (DiT)
 
 1. [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html): A 2023 paper that uses a Transformer architecture to do diffusion
 
 1. [Long-form Music Generation with Latent Diffusion](https://arxiv.org/pdf/2404.10301): This is a 2024 paper that describes how to use DiT models to do music audio generation
 
 1. [Stable Audio Open](https://arxiv.org/abs/2407.14358): A July 2024 paper that describes the architecture of Stability AI's open-source audio generation model
+
+1. [Building a Diffusion Transformer (DiT) from Scratch in PyTorch](https://medium.com/@zdj0712/from-vision-transformers-to-diffusion-transformers-dit-e2933a52f7c8): A 2026 Medium post that walks you through how to make a diffusion transformer
 
 
 #### Making diffusion faster
